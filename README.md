@@ -10,19 +10,18 @@ Follow these simple steps to initilize this project
      -for linux = sudo pip install virtualenv or sudo apt-get  virtualenv
      -for windows =  pip install virtualenv
      -for mac = sudo pip3 install virtualenv
-     
-  3 activate virtual env
-  
-    -linux source venv/bin/activate
-    -windows env\scripts\activate
-    -mac source venv/bin/activate
-    
-      
-  4 create env
+            
+  3 create env
   
      -linux = virtualenv -p python3 env
      -windows = python -m venv env
      -for mac = virtualenv env_ -p python3
+     
+  4 activate virtual env
+  
+    -linux source venv/bin/activate
+    -windows env\scripts\activate
+    -mac source venv/bin/activate
        
   5 install depebencies
   
