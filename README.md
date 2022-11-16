@@ -10,21 +10,28 @@ Follow these simple steps to initilize this project
      -for linux = sudo pip install virtualenv or sudo apt-get  virtualenv
      -for windows =  pip install virtualenv
      -for mac = sudo pip3 install virtualenv
+     
+  3 activate virtual env
+  
+    -linux source venv/bin/activate
+    -windows env\scripts\activate
+    -mac source venv/bin/activate
+    
       
-  3 create env
+  4 create env
   
      -linux = virtualenv -p python3 env
      -windows = python -m venv env
      -for mac = virtualenv env_ -p python3
        
-  4 install depebencies
+  5 install depebencies
   
      -pip install -r requements.txt
   
-  5 run project
+  6 run project
   
     -python manage.py runserver
     
-  6 open this link to access endpoints
+  7 open this link to access endpoints
   
     - http://localhost:8000/docs/
